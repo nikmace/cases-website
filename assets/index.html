@@ -28,7 +28,9 @@
             </div>
 
             <div>
-                <i class='bx bx-cart nav__cart'></i>
+                <a href="checkout.html">
+                    <i class='bx bx-cart nav__cart'><span id="cart-btn" style="font-size: 1.2rem; ">0</span></i>
+                </a>
                 <i class='bx bx-menu nav__toggle' id="nav-toggle"></i>
             </div>
         </nav>
@@ -143,12 +145,12 @@
             <h2 class="section-title">NEW ARRIVALS</h2>
             <a href="#" class="section-all">View all</a>
 
-            <div class="new__container bd-grid">
+            <div class="new__container bd-grid" id="newContainer">
                 <div class="new__box">
                     <img src="/assets/images/graffiti_otterbox_iphone_case-rb5a550c0eb ec4f35b24c12b71acbe1bf_09z8p_540 копия.svg" alt="" class="new__img">
 
                     <div class="new__link">
-                        <a href="#" class="button">VIEW PRODUCT</a>
+                        <a href="product.html" class="button">VIEW PRODUCT</a>
                     </div>
                 </div>
 
@@ -156,7 +158,7 @@
                     <img src="/assets/images/graffiti_otterbox_iphone_case-rb5a550c0eb ec4f35b24c12b71acbe1bf_09z8p_540 копия.svg" alt="" class="new__img">
 
                     <div class="new__link">
-                        <a href="#" class="button">VIEW PRODUCT</a>
+                        <a href="product.html" class="button">VIEW PRODUCT</a>
                     </div>
                 </div>
 
@@ -164,7 +166,7 @@
                     <img src="/assets/images/graffiti_otterbox_iphone_case-rb5a550c0eb ec4f35b24c12b71acbe1bf_09z8p_540 копия.svg" alt="" class="new__img">
 
                     <div class="new__link">
-                        <a href="#" class="button">VIEW PRODUCT</a>
+                        <a href="product.html" class="button">VIEW PRODUCT</a>
                     </div>
                 </div>
 
@@ -172,7 +174,7 @@
                     <img src="/assets/images/graffiti_otterbox_iphone_case-rb5a550c0eb ec4f35b24c12b71acbe1bf_09z8p_540 копия.svg" alt="" class="new__img">
 
                     <div class="new__link">
-                        <a href="#" class="button">VIEW PRODUCT</a>
+                        <a href="product.html" class="button">VIEW PRODUCT</a>
                     </div>
                 </div>
 
@@ -180,7 +182,7 @@
                     <img src="/assets/images/graffiti_otterbox_iphone_case-rb5a550c0eb ec4f35b24c12b71acbe1bf_09z8p_540 копия.svg" alt="" class="new__img">
 
                     <div class="new__link">
-                        <a href="#" class="button">VIEW PRODUCT</a>
+                        <a href="product.html" class="button">VIEW PRODUCT</a>
                     </div>
                 </div>
             </div>
@@ -259,6 +261,10 @@
 
 
     <!-- ==== MAIN JS ==== -->
+    <script src="https://cdn.jsdelivr.net/npm/handlebars@latest/dist/handlebars.js"></script>
+    <script src="/node_modules/jquery/dist/jquery.min.js"></script>
+    <script src="/node_modules/handlebars/dist/handlebars.min.js"></script>
     <script src="/assets/js/utils/menu.js"></script>
+    <script src="/assets/js/utils/cartMain.js"></script>
 </body>
 </html>
